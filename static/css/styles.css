@@ -1,0 +1,119 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover {
+    color: #00bcd4;
+}
+
+/* Header Styling */
+h2 {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Form and Upload Button */
+#upload-file input[type="file"] {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#upload-file input[type="file"]:hover {
+    background-color: #0056b3;
+}
+
+/* Image Section Styling */
+.image-section {
+    margin-top: 20px;
+    display: none;
+}
+
+.image-section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #dee2e6;
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 12px 30px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Loader Styling */
+.loader {
+    display: none;
+    margin: 20px auto;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #007bff;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+/* Loader Animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
